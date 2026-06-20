@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://inchowon58-beep.github.io/boho/sitemap.xml
