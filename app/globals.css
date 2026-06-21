@@ -1,3 +1,6 @@
+@import "../css/style.css";
+@import "./home.css";
+
 html {
   scroll-behavior: smooth;
 }
