@@ -1,3 +1,7 @@
 image_list.txt
 .DS_Store
 Thumbs.db
+node_modules
+.next
+.vercel
+*.log
