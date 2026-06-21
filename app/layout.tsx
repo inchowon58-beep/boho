@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteUrl = "https://boho.agapet.co.kr";
+const siteUrl =
+  process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : "https://boho.agapet.co.kr";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
